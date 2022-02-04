@@ -1,0 +1,95 @@
+@import url("globals.css");
+
+.home{
+    position: absolute;
+    top: 0;
+    top: 0;
+    left: 250px;
+    height: 100vh;
+    width: calc(100% - 250px);
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+}
+.home .text{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 12px 60px;
+}
+
+.sidebar.close ~ .home{
+    left: 78px;
+    height: 100vh;
+    width: calc(100% - 78px);
+}
+body.dark .home .text{
+    color: var(--text-color);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  display: grid;
+  place-items: left;
+  max-height: fit-content;
+  max-width: fit-content;
+
+}
+
+  .container {
+    display: grid; 
+    grid-auto-columns: 1.3fr; 
+    grid-auto-rows: 0.2fr; 
+    grid-template-columns: 1.3fr 0.5fr 1.0fr; 
+    grid-template-rows: 2.9fr 0.20fr 0.4fr; 
+    
+    grid-template-areas: 
+      "axieWrapper . donate"
+      "ButtonsWrapper . ."
+      "ButtonsWrapper2 . ."
+      "ButtonsWrapper3 . ."
+      "ButtonsWrapper4 . ."
+      ". . ."; 
+
+   padding-left: 2rem;
+   padding-top: 2rem;
+   gap:1rem;
+   
+   color:white;
+  }
+  .axieWrapper { grid-area: axieWrapper;
+    
+  }
+  .ButtonsWrapper { grid-area: ButtonsWrapper; 
+    font-size:4rem;
+  }
+  .ButtonsWrapper2 { grid-area: ButtonsWrapper2; 
+    color:black;
+    }
+    .ButtonsWrapper3 { grid-area: ButtonsWrapper3; 
+      font-size:3rem;
+      }
+      .ButtonsWrapper4 { grid-area: ButtonsWrapper4; 
+        font-size:3rem;
+        }
+  .donate { grid-area: donate; align-self: center;margin-right: 10rem; }
+
+  .wrapperHidden{
+    visibility:true;
+  }
+
+  @media only screen and (max-width: 600px) {
+      .container{
+        padding-left: 0;gap: 7px 2px;
+      }
+      .donate{ visibility:hidden;}
+  }
+  

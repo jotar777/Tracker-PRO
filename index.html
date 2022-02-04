@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img\favicon.ico">
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="styles\sidebar.css">
+    <link rel="stylesheet" href="styles\bootstrap.min.css">
+    <link rel="stylesheet" href="styles\home.css">
+    <link rel="stylesheet" href="styles\globals.CSS">
+    <link rel="stylesheet" href="styles\tableAxies.CSS">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Axie PRO Tracker</title> 
+</head>
+<body onLoad="uncheckAll()">
+
+    <!-- sidebar-->
+    
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="img\logo.jpg" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">Axie Infinity</span>
+                    <span class="profession">PRO TRACKER</span>
+                </div>
+            </div>
+
+            <i class="bx bx-chevron-right toggle"></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="index.html">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Tracker</span>
+                        </a>
+                    </li>
+
+
+                  </li>
+
+                    <li class="nav-link">
+                        <a href="https://axie.substack.com/p/upcoming-season-20-and-economic-balancing"target="_blank">
+                            <i class='bx bxs-notepad icon' ></i>
+                            <span class="text nav-text">Last Updates</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-smile icon'></i>
+                            <span class="text nav-text">How To Use</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-bank icon'></i>
+                            <span class="text nav-text">Rewards</span>
+                        </a>
+                    </li>
+
+                    
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxl-twitter icon'></i>
+                            <span class="text nav-text">Twitter</span>
+                        </a>
+                    </li>
+                  
+
+                </ul>
+            </div>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+
+                </li>
+                
+            </div>
+        </div>
+
+    </nav><!-- end sidebar-->
+
+
+  <!--table axies-->
+    <section class="home">
+      
+    <!-- container home-->
+      <div class="container">
+        <div class="axieWrapper">
+          <table >
+            <thead>
+                <tr>
+                    <th class="table-header">
+                        Parts</th>
+                    <th class="table-header">
+                        First Appearance</th>
+                    <th class="table-header">
+                        Second Appearance</th>
+                    <th class="table-header">
+                        DMG/Shield
+                    </span></th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <div>
+                    <tr>
+                        <td class="axie1">
+                            Mouth</td>
+                        <td   data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie1" onclick="toggleA1M1();subCard();"><i class=" fas fa-times" id="a1m1"></i></td>
+                        <td   data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie1" onclick="toggleA1M2();subCard();"><i class="fas fa-times" id="a1m2"></i>
+                        <td><input type="text" id="danoBoca1" name="danoBoca1" size="6"placeholder="100" ></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="axie1">
+                            Horn</td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie1" onclick="toggleA1H1();subCard();"><i class=" fas fa-times" id="a1h1"></td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie1" onclick="toggleA1H2();subCard();"><i class=" fas fa-times" id="a1h2"></td>
+                            <td><input type="text" id="danoBoca1" name="danoBoca1" size = "6"placeholder="100"></td>
+                    </tr>
+                    <tr>
+                        <td class="axie1">
+                            Back</td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie1" onclick="toggleA1B1();subCard();"><i class=" fas fa-times" id="a1b1"></td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie1" onclick="toggleA1B2();subCard();"><i class=" fas fa-times" id="a1b2"></td>
+                            <td><input type="text" id="danoBoca1" name="danoBoca1" size="6"placeholder="100" ></td>
+                        </tr>
+                    <tr>
+                        <td class="axie1">
+                            Tail</td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie1" onclick="toggleA1T1();subCard();"><i class=" fas fa-times" id="a1t1"></td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie1" onclick="toggleA1T2();subCard();"><i class=" fas fa-times" id="a1t2"></td>
+                            <td><input type="text" id="danoBoca1" name="danoBoca1" size="6" placeholder="100"></td>
+                    </tr>
+                </div>
+    
+                <div>
+                    <tr>
+                        <td class="axie2">
+                            Mouth</td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie2" onclick="toggleA2M1();subCard();"><i class=" fas fa-times" id="a2m1"></i></td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie2" onclick="toggleA2M2();subCard();"><i class="fas fa-times" id="a2m2"></i></td>
+                        <td><input type="text" id="danoBoca1" name="danoBoca1" size="6" placeholder="100"></td>
+                    </tr>
+                    <tr>
+                        <td class="axie2">
+                            Horn</td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie2" onclick="toggleA2H1();subCard();"><i class=" fas fa-times" id="a2h1"></td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie2" onclick="toggleA2H2();subCard();"><i class=" fas fa-times" id="a2h2"></td>
+                            <td><input type="text" id="danoBoca1" name="danoBoca1" size="6"placeholder="100" ></td>
+                    </tr>
+                    <tr>
+                        <td class="axie2">
+                            Back</td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie2" onclick="toggleA2B1();subCard();"><i class=" fas fa-times" id="a2b1"></td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie2" onclick="toggleA2B2();subCard();"><i class=" fas fa-times" id="a2b2"></td>
+                            <td><input type="text" id="danoBoca1" name="danoBoca1" size="6"placeholder="100" ></td>
+                    </tr>
+                    <tr>
+                        <td class="axie2">
+                            Tail</td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie2" onclick="toggleA2T1();subCard();"><i class=" fas fa-times" id="a2t1"></td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie2" onclick="toggleA2T2();subCard();"><i class=" fas fa-times" id="a2t2"></td>
+                            <td><input type="text" id="danoBoca1" name="danoBoca1" size="6" placeholder="100"></td>
+                    </tr>
+                </div>
+    
+                <div>
+                    <tr>
+                        <td class="axie3">
+                            Mouth</td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie3" onclick="toggleA3M1();subCard();"><i class=" fas fa-times" id="a3m1"></i></td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie3" onclick="toggleA3M2();subCard();"><i class="fas fa-times" id="a3m2"></i></td>
+                        <td><input type="text" id="danoBoca1" name="danoBoca1" size="6" placeholder="100"></td>
+                    </tr>
+                    <tr>
+                        <td class="axie3">
+                            Horn</td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie3" onclick="toggleA3H1();subCard();"><i class=" fas fa-times" id="a3h1"></td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie3" onclick="toggleA3H2();subCard();"><i class=" fas fa-times" id="a3h2"></td>
+                            <td><input type="text" id="danoBoca1" name="danoBoca1" size="6" placeholder="100"></td>
+                    </tr>
+                    <tr>
+                        <td class="axie3">
+                            Back</td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie3" onclick="toggleA3B1();subCard();"><i class=" fas fa-times" id="a3b1"></td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie3" onclick="toggleA3B2();subCard();"><i class=" fas fa-times" id="a3b2"></td>
+                            <td><input type="text" id="danoBoca1" name="danoBoca1" size="6"placeholder="100" ></td>
+                    </tr>
+                    <tr>
+                        <td class="axie3">
+                            Tail</td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie3" onclick="toggleA3T1();subCard();"><i class=" fas fa-times" id="a3t1"></td>
+                        <td  data-toggle="tooltip" data-placement="bottom" title="Press for -1 Card"class="axie3" onclick="toggleA3T2();subCard();"><i class=" fas fa-times" id="a3t2"></td>
+                            <td><input type="text" id="danoBoca1" name="danoBoca1" size="6" placeholder="100"></td>
+                    </tr>
+                   
+               
+            </tbody>
+            
+        </table> <!--tabela axies-->
+        </div>
+
+        <div class="donate"style="background-color: transparent;color: white;">
+         
+          We're NOT affiliated with Axie Infinity. This is a fan site dedicated to the game<br>
+          Consider support us with any amount<br><br>
+          ronin:f82274d481f041ff3f8632832524ce19073be51
+        </div><!--coluna 2 div "footer"-->
+         
+        <!-- buttons -->
+        <div class="ButtonsWrapper">
+
+            <img src="img/cards.png" class="icons"data-toggle="tooltip" data-placement="bottom" 
+            title="Press for -1 Card"onclick="subCard()"
+            style="cursor:pointer">
+            <span id="cardsQuantity" onclick="subCard()">
+            6</span>  
+                <img class="icons"src="img\energyIcon.png">
+                <span id="energyQuantity"class="">
+                    03</span>/10
+        </div>
+
+            <div class="ButtonsWrapper2">
+                <button type="button" class="btn btn-primary btn-lg"data-toggle="tooltip" data-placement="bottom" title="Press for -1 Energy"onclick="subtract()">
+                    -1 Energy</button>
+                    <button type="button" class="btn btn-primary btn-lg"data-toggle="tooltip" data-placement="bottom" title="Press for +1 Energy"onclick="add()">
+                    +1 Energy</button>
+                    <button type="button" class="btn btn-outline-primary btn-lg"onclick="addCard()"data-toggle="tooltip" data-placement="bottom" title="Press for +1 Card">
+                    +1 Card</button>       
+            </div>
+
+            <div class="ButtonsWrapper3">
+               
+                    <button type="button" class="btn btn-warning btn-lg"onclick="nextRound()">
+                        NEXT ROUND</button> 
+                        Round&nbsp;<span id="roundNumber"> 1 
+            </div>
+
+            <div class="ButtonsWrapper4">
+                <button  data-toggle="tooltip" data-placement="bottom" title="Uncheck all marked cards"type="button" class="btn btn-info btn-sm "onclick="uncheckAll()">
+                    CLEAR TABLE</button> 
+                <button data-toggle="tooltip" data-placement="bottom" title="Let's go NEXT"type="button" class="btn btn-success btn-sm"onclick="reset()">
+                    NEW GAME</button>
+            </div>
+        </div>
+
+        </div><!--fim do container home-->
+     
+    </section>
+
+    <!--scripts-->
+    <script>
+    const body = document.querySelector('body'),
+      sidebar = body.querySelector('nav'),
+      toggle = body.querySelector(".toggle"),
+      searchBtn = body.querySelector(".search-box"),
+      modeSwitch = body.querySelector(".toggle-switch"),
+      modeText = body.querySelector(".mode-text");
+
+
+toggle.addEventListener("click" , () =>{
+    sidebar.classList.toggle("close");
+})
+
+searchBtn.addEventListener("click" , () =>{
+    sidebar.classList.remove("close");
+})
+
+modeSwitch.addEventListener("click" , () =>{
+    body.classList.toggle("dark");
+    
+    if(body.classList.contains("dark")){
+        modeText.innerText = "Light mode";
+    }else{
+        modeText.innerText = "Dark mode";
+        
+    }
+});
+    </script>
+     <script src="js/energyCalculator.js"></script>
+     <script src="js/tableAxies.js"></script>
+
+     
+</body>
+
+
+</html>
