@@ -57,7 +57,7 @@ body {
       "ButtonsWrapper4 . ."
       ". . ."; 
 
-   padding-left: 2rem;
+   padding-left: 5rem;
    padding-top: 2rem;
    gap:1rem;
    color:white;
@@ -66,10 +66,10 @@ body {
     
   }
   .ButtonsWrapper { grid-area: ButtonsWrapper; 
-    font-size:4rem;
+    font-size:4rem;padding-top: 1rem;
   }
   .ButtonsWrapper2 { grid-area: ButtonsWrapper2; 
-    color:black;
+    color:black;padding-top: 1rem;
     }
     .ButtonsWrapper3 { grid-area: ButtonsWrapper3; 
       font-size:3rem;
@@ -85,7 +85,8 @@ body {
 
   @media only screen and (max-width: 600px) {
       .container{
-        padding-left: 0;gap: 7px 2px;
+        padding-left: 0;gap: 7px 2px;padding-top: 1rem;padding-left: 0;
+        
       }
       .donate{ visibility:hidden;}
   }

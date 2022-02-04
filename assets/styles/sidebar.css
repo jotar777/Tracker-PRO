@@ -253,8 +253,5 @@ body.dark .switch::before{
           visibility: hidden;
           transition: var(--tran-05);
       }
-      .sidebar > i{
-          visibility: visible;
-      }
-}
+    }
 
