@@ -51,7 +51,6 @@ if (am1.style.visibility === 'hidden') {
   
 }
 }  
-document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
 function toggleA1M2(){
   var am1 = document.getElementById('a1m2');
   

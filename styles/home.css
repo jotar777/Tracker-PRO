@@ -26,8 +26,6 @@ body.dark .home .text{
     color: var(--text-color);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
-
 *,
 *::before,
 *::after {
@@ -36,9 +34,9 @@ body.dark .home .text{
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+ 
   display: grid;
-  place-items: left;
+
   max-height: fit-content;
   max-width: fit-content;
 
@@ -62,7 +60,6 @@ body {
    padding-left: 2rem;
    padding-top: 2rem;
    gap:1rem;
-   
    color:white;
   }
   .axieWrapper { grid-area: axieWrapper;
