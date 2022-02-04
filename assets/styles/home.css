@@ -4,7 +4,7 @@
     position: absolute;
     top: 0;
     top: 0;
-    left: 250px;
+    left: 265px;
     height: 100vh;
     width: calc(100% - 250px);
     background-color: var(--body-color);
@@ -44,7 +44,7 @@ body {
 
   .container {
     display: grid; 
-    grid-auto-columns: 1.3fr; 
+    grid-auto-columns: 2.3fr; 
     grid-auto-rows: 0.2fr; 
     grid-template-columns: 1.3fr 0.5fr 1.0fr; 
     grid-template-rows: 2.9fr 0.20fr 0.4fr; 
@@ -57,9 +57,8 @@ body {
       "ButtonsWrapper4 . ."
       ". . ."; 
 
-   padding-left: 5rem;
-   padding-top: 2rem;
-   gap:1rem;
+   padding-top: 3rem;
+   gap:1.3rem;
    color:white;
   }
   .axieWrapper { grid-area: axieWrapper;
