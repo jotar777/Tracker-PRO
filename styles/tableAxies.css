@@ -1,16 +1,9 @@
 
 
-.cards-and-parts-container table {
-    margin: auto;
-    border-collapse: collapse;
-    font-weight: bold;
-    text-align: center;
-    max-width: 200px;
-    
-  }
+
   
   th {
-    background-color: #14213D;
+   background-color: #14213D;
     color: #fff;
     font-weight: 500;
     border: 1px solid #000;
