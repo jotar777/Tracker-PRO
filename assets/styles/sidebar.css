@@ -70,6 +70,7 @@
 .sidebar header .logo-text{
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 header .image-text .name {
     margin-top: 2px;
