@@ -1,3 +1,5 @@
+Object.onload = uncheckAll();
+
 function uncheckAll() {
     // Axie1 parts clear
     document.getElementById('a1m1').style.visibility = "hidden";
