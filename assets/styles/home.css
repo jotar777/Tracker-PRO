@@ -90,12 +90,13 @@ body {
       }
       .donate{ visibility:hidden;}
       .ButtonsWrapper{font-size:3rem;}
-      .ButtonsWrapper2 { padding-top: 1rem;
+      .ButtonsWrapper2 { grid-area: ButtonsWrapper2; 
+        color:black;padding-top: 1rem;
         }
-        .ButtonsWrapper3 {  
+        .ButtonsWrapper3 { grid-area: ButtonsWrapper3; 
           font-size:3rem;
           }
-          .ButtonsWrapper4 { 
+          .ButtonsWrapper4 { grid-area: ButtonsWrapper4; 
             font-size:1rem;
             }
   }
