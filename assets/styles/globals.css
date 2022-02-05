@@ -1,4 +1,4 @@
-/* Google Font Import - Poppins */
+
 *{
     margin: 0;
     padding: 0;
@@ -38,13 +38,4 @@ body{
 ::selection{
     background-color: var(--primary-color);
     color: #fff;
-}
-
-body.dark{
-    --body-color: #E4E9F7;
-    --sidebar-color: #FFF;
-    --primary-color: #695CFE;
-    --primary-color-light: #F6F5FF;
-    --toggle-color: #DDD;
-    --text-color: #707070;
 }
