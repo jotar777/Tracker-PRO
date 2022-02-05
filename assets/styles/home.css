@@ -44,7 +44,7 @@ body {
 
   .container {
     display: grid; 
-    grid-auto-columns: 2.3fr; 
+    grid-auto-columns: 1.3fr; 
     grid-auto-rows: 0.2fr; 
     grid-template-columns: 1.3fr 0.5fr 1.0fr; 
     grid-template-rows: 2.9fr 0.20fr 0.4fr; 
@@ -60,9 +60,10 @@ body {
    padding-top: 3rem;
    gap:1.3rem;
    color:white;
+   padding-left: 7.5rem;
   }
   .axieWrapper { grid-area: axieWrapper;
-    
+    background-color:red;
   }
   .ButtonsWrapper { grid-area: ButtonsWrapper; 
     font-size:4rem;padding-top: 1rem;

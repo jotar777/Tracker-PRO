@@ -12,7 +12,7 @@ function nextRound(){
   cards += 3;
   if (counter >= 10) {
     counter = 10;
-  }
+    }
   if (cards >= 12) {
     cards = 12;
   }

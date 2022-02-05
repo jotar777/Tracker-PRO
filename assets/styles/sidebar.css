@@ -222,6 +222,10 @@ body.dark .mode .sun-moon i.moon{
     border-radius: 25px;
     background-color: var(--toggle-color);
     transition: var(--tran-05);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
 
 .switch::before{
@@ -253,6 +257,7 @@ body.dark .switch::before{
       .sidebar.close{
           visibility: hidden;
           transition: var(--tran-05);
+          
       }
     }
 
