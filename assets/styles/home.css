@@ -63,7 +63,7 @@ body {
    padding-left: 7.5rem;
   }
   .axieWrapper { grid-area: axieWrapper;
-    background-color:red;
+    
   }
   .ButtonsWrapper { grid-area: ButtonsWrapper; 
     font-size:4rem;padding-top: 1rem;
