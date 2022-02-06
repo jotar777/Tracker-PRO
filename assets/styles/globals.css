@@ -48,3 +48,9 @@ body.dark{
     --toggle-color: #DDD;
     --text-color: #707070;
 }
+
+@media only screen and (max-width: 860px) {
+    body{
+        overflow-y:hidden;
+    }
+}

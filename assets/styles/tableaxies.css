@@ -169,7 +169,7 @@
     font-size: 20px;
     visibility: hidden;
   }
-  
+  input[type="text"],     input[type="text"]:focus     {         background: transparent;         border: green;         outline-width: 2;     }
   
   
   /* responsive */

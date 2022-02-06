@@ -40,34 +40,42 @@ body {
 
 }
 
+.cryptocontainer{
+  font-size:2px;
+}
+
   .container {
     display: grid; 
     grid-auto-columns: 1.3fr; 
     grid-auto-rows: 0.2fr; 
-    grid-template-columns: 1.3fr 0.5fr 1.0fr; 
+    grid-template-columns: 1.3fr 3.9fr 1.0fr; 
     grid-template-rows: 1.9fr 0.20fr 0.4fr; 
     
     grid-template-areas: 
       "axieWrapper . donate"
       "ButtonsWrapper . ."
+      "ButtonsWrapper1 . ."
       "ButtonsWrapper2 . ."
       "ButtonsWrapper3 . ."
       "ButtonsWrapper4 . ."
       ". . ."; 
 
-   padding-top: 2.5rem;
+   padding-top: 1rem;
    gap:1.3rem;
    color:white;
-   padding-left: 2.5rem;
+   padding-left: 8.5rem;
   }
   .axieWrapper { grid-area: axieWrapper;
-    
+   
   }
   .ButtonsWrapper { grid-area: ButtonsWrapper; 
-    font-size:3.5rem;padding-top: 1rem;display:inline;
+    font-size:3.5rem;padding-top: 0.6rem;display:inline;
+  }
+  .ButtonsWrapper1 { grid-area: ButtonsWrapper1; 
+    
   }
   .ButtonsWrapper2 { grid-area: ButtonsWrapper2; 
-    color:black;padding-top: 1rem;
+    color:black;
     }
     .ButtonsWrapper3 { grid-area: ButtonsWrapper3; 
       font-size:3rem;
@@ -83,14 +91,16 @@ body {
 
   @media only screen and (max-width: 860px) {
       .container{
-        padding-left: 0;padding-top: 1rem;margin-left: 0;
+        padding-left: 0;padding-top: 0.6rem;margin-left: 0;
         
       }
       .donate{ visibility:hidden;}
       .ButtonsWrapper{font-size:3rem;}
       .ButtonsWrapper2 { grid-area: ButtonsWrapper2; 
-        color:black;padding-top: 1rem;
-        }
+        color:black;
+        } .ButtonsWrapper1 { grid-area: ButtonsWrapper1; 
+          
+          }
         .ButtonsWrapper3 { grid-area: ButtonsWrapper3; 
           font-size:3rem;
           }
