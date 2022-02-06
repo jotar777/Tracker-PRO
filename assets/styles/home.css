@@ -40,10 +40,6 @@ body {
 
 }
 
-.cryptocontainer{
-  font-size:2px;
-}
-
   .container {
     display: grid; 
     grid-auto-columns: 1.3fr; 
@@ -85,10 +81,7 @@ body {
         }
   .donate { grid-area: donate; align-self: center;margin-right: 10rem; }
 
-  .wrapperHidden{
-    visibility:true;
-  }
-
+ 
   @media only screen and (max-width: 860px) {
       .container{
         padding-left: 0;padding-top: 0.6rem;margin-left: 0;
